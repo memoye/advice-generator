@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  background: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.advice {
+  width: 35rem;
+  max-width: 100%;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  background: hsl(217, 19%, 24%);
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+}
+.advice__title {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.advice__quote {
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+}
+.advice__divider {
+  width: 100%;
+  height: 2rem;
+  background: url(../images/pattern-divider-desktop.svg) no-repeat center;
+  margin: 1rem 0;
+}
+.advice--active {
+  padding: 2em;
+  border-radius: 50%;
+  border: none;
+  background: hsl(150, 100%, 66%);
+  margin-bottom: -15%;
+}
+.advice--active:hover {
+  box-shadow: 0px 0px 70px 0px hsl(150, 100%, 66%);
+  -webkit-box-shadow: 0px 0px 70px 0px hsl(150, 100%, 66%);
+  -moz-box-shadow: 0px 0px 70px 0px hsl(150, 100%, 66%);
+  transition: 0.5s;
+}/*# sourceMappingURL=main.min.css.map */

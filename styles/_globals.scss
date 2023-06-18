@@ -1,0 +1,19 @@
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+
+$priFont: 'Manrope', sans-serif;
+
+$desktopDivider: url(../images/pattern-divider-desktop.svg);
+
+$mobileDivider: url(../images/pattern-divider-desktop.svg);
+
+
+@mixin glow($col) {
+    box-shadow: 0px 0px 70px 0px $col;
+-webkit-box-shadow: 0px 0px 70px 0px $col;
+-moz-box-shadow: 0px 0px 70px 0px $col;
+}
